@@ -1,5 +1,6 @@
 .body {
   font-family: "Roboto";
+  color: #2e2f42;
 }
 .link {
   text-decoration: none;
@@ -7,6 +8,8 @@
 .list {
   list-style: none;
 }
+
+/* header */
 .header-web {
   font-family: "Raleway";
   font-style: normal;
@@ -50,6 +53,7 @@
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* hero */
 .hero {
   background-color: #2e2f42;
 }
@@ -64,6 +68,7 @@
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+  cursor: pointer;
 }
 .hero-logo {
   font-family: "Roboto";
@@ -71,10 +76,10 @@
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+/* section 1 */
 .main-title {
   font-family: "Roboto";
   font-style: normal;
@@ -99,7 +104,6 @@
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
@@ -110,8 +114,81 @@
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+}
+/* section 2 */
+.caption {
+}
+.picture list {
+}
+.list-image {
+}
+.picture {
+}
+/* section 3 */
+.team-picture {
+}
+.team-pct {
+}
+.name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.footer-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+  background-color: #2e2f42;
+}
+/**------ portfolio */
+.filters-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+.filters-btn:hover {
+  color: #ffffff;
+  border-color: #404bbf;
+}
+.project-card-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.project-card-paragraph {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
