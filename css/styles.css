@@ -1,6 +1,6 @@
 .body {
-  font-family: "Roboto";
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
 }
 .link {
   text-decoration: none;
@@ -10,25 +10,23 @@
 }
 
 /* header */
-.header-web {
+.header-logo {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.header-studio {
+.studio-logo {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
