@@ -239,7 +239,8 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #2e2f42;
+  letter-spacing: 0.02;
+  color: var(--color-navy-blue);
 }
 .project-card-paragraph {
   font-family: "Roboto";
@@ -247,5 +248,6 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
