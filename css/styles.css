@@ -1,3 +1,16 @@
+:root {
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+}
+
 .body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -10,27 +23,67 @@
 }
 
 /* header */
-.header-logo {
-  font-family: "Raleway";
+.header-logo,
+.footer-logo {
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  line-height: 1.17;
   color: #4d5ae5;
 }
+.header-logo :hover {
+  color: #404bbf;
+}
+.header-logo:focus {
+  color: #404bbf;
+}
+.header-address {
+  font-style: normal;
+}
+.header-mail-list {
+  line-height: 1.5;
+}
+.header-mail-list :hover {
+  color: #404bbf;
+}
+.header-mail-list :focus {
+  color: #404bbf;
+}
+.header-tel-list {
+  line-height: 1.5;
+}
+.header-tel-list :hover {
+  color: #404bbf;
+}
+.header-tel-list :focus {
+  color: #404bbf;
+}
+.footer-logo :hover {
+  color: #404bbf;
+}
+.footer-logo :focus {
+  color: #404bbf;
+}
 .studio-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
-  align-items: center;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #2e2f42;
+  text-transform: uppercase;
+}
+.footer-studio-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+  text-transform: uppercase;
 }
 .header-link {
   font-family: "Roboto";
@@ -38,7 +91,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .head-mail,
@@ -48,7 +100,6 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5px;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 /* hero */
@@ -57,14 +108,11 @@
 }
 .hero-btn {
   background-color: #4d5ae5;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
 }
@@ -74,8 +122,8 @@
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 /* section 1 */
 .main-title {
@@ -84,7 +132,6 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .subtitle {
@@ -93,17 +140,14 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
-.caption {
+.subtitle-section {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
   color: #2e2f42;
 }
 .subject {
@@ -112,9 +156,11 @@
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
+  text-align: center;
   color: #2e2f42;
+}
+.footer-box {
+  background-color: var(--color-navy-blue);
 }
 /* section 2 */
 .caption {
@@ -134,14 +180,12 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .profession {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 .footer-text {
@@ -150,7 +194,6 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #e7e9fc;
   background-color: #2e2f42;
 }
@@ -161,10 +204,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
 }
@@ -178,7 +217,6 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .project-card-paragraph {
@@ -187,6 +225,5 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
