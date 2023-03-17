@@ -14,6 +14,7 @@
 
 .body {
   font-family: "Roboto", sans-serif;
+  border-color: var(--color-white);
   color: var(--color-slate);
 }
 .link {
@@ -177,15 +178,22 @@
   color: var(--color-cornflower);
   background-color: var(--color-navy-blue);
 }
+.team-section {
+  border-color: var(--color-cloud);
+}
+.team-picture {
+  border-color: var(--color-white);
+}
 /**------ portfolio */
 .fil-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-iris);
+  border-color: var(--color-cloud);
   cursor: pointer;
 }
 
