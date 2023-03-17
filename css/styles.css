@@ -14,7 +14,7 @@
 
 .body {
   font-family: "Roboto", sans-serif;
-  border-color: var(--color-white);
+  background-color: var(--color-white);
   color: var(--color-slate);
 }
 .link {
@@ -179,10 +179,10 @@
   background-color: var(--color-navy-blue);
 }
 .team-section {
-  border-color: var(--color-cloud);
+  background-color: var(--color-cloud);
 }
 .team-picture {
-  border-color: var(--color-white);
+  background-color: var(--color-white);
 }
 /**------ portfolio */
 .fil-btn {
@@ -193,7 +193,7 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-iris);
-  border-color: var(--color-cloud);
+  background-color: var(--color-cloud);
   cursor: pointer;
 }
 
